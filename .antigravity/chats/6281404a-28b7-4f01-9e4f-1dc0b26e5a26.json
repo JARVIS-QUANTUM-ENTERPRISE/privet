@@ -3,6 +3,31 @@
   "name": "Привет",
   "createdAt": "2026-10-26T16:05:01.791Z",
   "filename": "6281404a-28b7-4f01-9e4f-1dc0b26e5a26.json",
-  "geminiStarted": false,
-  "messages": []
+  "geminiStarted": true,
+  "messages": [
+    {
+      "id": "5dd5d43e-9813-4c92-bd63-2156016a679f",
+      "role": "user",
+      "content": "Что",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-26T16:05:39.711Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "f704df2e-5d0f-4a7e-8d65-e1b199ae5f2a",
+      "role": "agent",
+      "content": "error: Eligibility check failed: Your current account is not eligible for Antigravity, because it is not currently available in your location.",
+      "status": "error",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "5dd5d43e-9813-4c92-bd63-2156016a679f",
+      "created_at": "2026-10-26T16:05:41.039Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    }
+  ]
 }
